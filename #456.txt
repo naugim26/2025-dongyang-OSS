@@ -1,0 +1,60 @@
+#456
+Summary
+깃 설치 다운로드
+https://git-scm.com/downloads
+깃 설치
+- Git-2.39.0.2-64-bit.exe
+- 계속 다음으로 설치
+파일
+깃 실행
+메뉴
+탐색기에서 메뉴
+CLI 이해
+- C:\Program Files\Git
+설치 성공
+- $ git version
+- $ git --version
+
+Summary
+깃 설정 명령 구조
+$ git config --설정범위 설정변수 설정값
+설정 범위
+--global 인 경우 설정 파일
+• [--system | --global | --local]
+• C:\Users\[사용자-계정]\.gitconfig
+
+Summary
+지역 저장소 생성 전 다음 설정 반드시 수행
+• $ git config --global user.name “hs kang“
+• $ git config --global user.email hskang@gmail.com
+사용자 설정
+맥(lf)과 윈도(crlf) 간의 자동 변환
+뉴라인 경고 발생 없애기(옵션)
+기본 편집기 설정
+깃 저장소 기본 브랜치 이름 설정
+• $ git config --global core.autocrlf true
+• $ git config --global core.safecrlf false
+• $ git config --global core.editor ‘code --wait’
+• $ git config --global init.defaultBranch main
+
+Summary
+git repository 생성 방법
+- 현재 디렉토리를 git repository로 만들기 위해서 사용
+$ git init
+$ git init basic
+$ git init .
+- 현재 폴더 하부에 폴더 basic을 생성하고 git repository로 만들기 위해서 사용
+
+Summary
+Vscode 개요와 설치
+깃 버전관리와 파일 관리
+시스템 버전 설치 권장
+- 탐색기에서 파일 또는 디렉토리에서 바로 ‘vscode로 열기’ 메뉴 체크
+리눅스 명령
+깃 CLI에서 함께 명령 사용
+활동바(툴바) 활용
+- $ pwd
+- $ ls -al
+- $ touch a.txt
+- $ echo aaa > a.txt
+- $ cat a.txt
