@@ -1,0 +1,50 @@
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ git config --global user.name nwkim
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ git config --global user.email nwkim@gmail.com
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ git config --global core.auticrlf true
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ git config --global core.safecrlf false
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ git config --global core.editor 'code --wait'
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ git config --global init.defaultBranch main
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ git init basic
+Initialized empty Git repository in C:/git-master/basic/.git/
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master
+$ cd basic
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master/basic (main)
+$ ls -al
+total 4
+drwxr-xr-x 1 김태환 197121 0 Sep 29 00:49 ./
+drwxr-xr-x 1 김태환 197121 0 Sep 29 00:49 ../
+drwxr-xr-x 1 김태환 197121 0 Sep 29 00:49 .git/
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master/basic (main)
+$ cd .git
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master/basic/.git (GIT_DIR!)
+$ ls -al
+total 11
+drwxr-xr-x 1 김태환 197121   0 Sep 29 00:49 ./
+drwxr-xr-x 1 김태환 197121   0 Sep 29 00:49 ../
+-rw-r--r-- 1 김태환 197121  21 Sep 29 00:49 HEAD
+-rw-r--r-- 1 김태환 197121 130 Sep 29 00:49 config
+-rw-r--r-- 1 김태환 197121  73 Sep 29 00:49 description
+drwxr-xr-x 1 김태환 197121   0 Sep 29 00:49 hooks/
+drwxr-xr-x 1 김태환 197121   0 Sep 29 00:49 info/
+drwxr-xr-x 1 김태환 197121   0 Sep 29 00:49 objects/
+drwxr-xr-x 1 김태환 197121   0 Sep 29 00:49 refs/
+
+김태환@LAPTOP-GFPQERSF MINGW64 /c/git-master/basic/.git (GIT_DIR!)
+$
