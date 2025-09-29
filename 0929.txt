@@ -1,0 +1,107 @@
+
+109-1@109-1-15 MINGW64 ~
+$ pwd
+/c/Users/109-1
+
+109-1@109-1-15 MINGW64 ~
+$ cd ..
+
+109-1@109-1-15 MINGW64 /c/Users
+$ cd ..
+
+109-1@109-1-15 MINGW64 /c
+$ cd git-test
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ pwd
+/c/git-test
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ cls
+bash: cls: command not found
+
+109-1@109-1-15 MINGW64 /c/git-test
+$
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git cofig --global user.name naugim26
+git: 'cofig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ ^C
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global user.name naugim26
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global user.email naugim26@gmail.com
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global core.autocrlf true
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global core.safecrlf false
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global core.editor "code --wait"
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global init.defaultBranch main
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global --edit
+
+109-1@109-1-15 MINGW64 /c/git-test
+$
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git init basic
+Initialized empty Git repository in C:/git-test/basic/.git/
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ cd basic
+
+109-1@109-1-15 MINGW64 /c/git-test/basic (main)
+$ ls
+
+109-1@109-1-15 MINGW64 /c/git-test/basic (main)
+$ ls -al
+total 4
+drwxr-xr-x 1 109-1 197121 0 Sep 29 12:23 ./
+drwxr-xr-x 1 109-1 197121 0 Sep 29 12:23 ../
+drwxr-xr-x 1 109-1 197121 0 Sep 29 12:23 .git/
+
+109-1@109-1-15 MINGW64 /c/git-test/basic (main)
+$ git config --local core.editor notepad
+
+109-1@109-1-15 MINGW64 /c/git-test/basic (main)
+$ git config --local --edit
+hint: Waiting for your editor to close the file... unix2dos: converting file C:/git-test/basic/.git/config to DOS format...
+dos2unix: converting file C:/git-test/basic/.git/config to Unix format...
+
+109-1@109-1-15 MINGW64 /c/git-test/basic (main)
+$ cd ..
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ git config --global --edit
+
+109-1@109-1-15 MINGW64 /c/git-test
+$ cd basic
+
+109-1@109-1-15 MINGW64 /c/git-test/basic (main)
+$ git config --global --edit
+
+109-1@109-1-15 MINGW64 ~
+$ git config --system user.name nwkim
+
+109-1@109-1-15 MINGW64 ~
+$ git config --system core.editor "code --wait"
+
+109-1@109-1-15 MINGW64 ~
+$ git config --system --edit
+hint: Waiting for your editor to close the file...
+
+
