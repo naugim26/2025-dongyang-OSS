@@ -1,0 +1,32 @@
+#131415
+Summary
+Semantic Versioning 방식
+3.34.5
+태그 생성
+$ git tag v1.0.1
+• Major.minor.patch
+$ git tag –a v1.0.1 –m ‘msg’
+태그 자세한 정보 확인
+$ git show v1.0.1
+태그 목록 확인
+$ git tag
+태그 삭제
+$ git tag –d v1.0.1
+
+Summary
+$ git branch
+저장소 목록 보기
+21
+$ git branch <new-branch>
+저장소 생성만
+$ git checkout -b <new-branch>
+저장소 생성하고 이동
+git switch –c <new-branch>
+저장소 생성하고 이동
+
+Summary
+git branch –d branch-name
+저장소 삭제
+22
+$ git branch –D branch-name
+저장소 삭제, 강제 삭제
